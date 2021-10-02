@@ -1,0 +1,31 @@
+{
+  "name": "pangaeaassignment",
+  "version": "1.0.0",
+  "description": "A take-home assignment for HTTP notification system, in partial fulfilment for the Senior Software Engineer job role. Allows a server to keep track of topics -> subscribers where a topic is a string and a subscriber is an HTTP endpoint.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "keywords": [
+    "HTTP",
+    "notification",
+    "system"
+  ],
+  "author": "Akeem Aweda",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^27.2.4"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
