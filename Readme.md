@@ -1,5 +1,4 @@
-# Pangaea Take-home assignment
-> In partial fulfilment for the Senior Software Engineer job role.
+# HTTP Notification System
 
 ## Table of Contents
 * [General Info](#general-information)
